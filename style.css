@@ -122,6 +122,7 @@ body {
   align-items: center;
   margin-top: 10px;
   border-radius: 8px;
+  overflow:hidden;
 }
 .xinkali {
   font-weight: bolder;
