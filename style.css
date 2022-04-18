@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-origin: padding-box;
+}
+body {
+  /* background-image: url("background.png");
+  background-position: top; */
+  background-image: url(./images/topography.svg),
+    linear-gradient(110deg, #f93d66, #6d47d9);
+  background-size: 340px, auto;
+}
+.header {
+  margin-top: 40px;
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 45px;
+}
+.menus {
+  background-color: #fbbc05;
+  width: 19.5%;
+  height: 55px;
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.menus:hover {
+  /* width: 18%; */
+  /* height: 57px; */
+  background-color: #d4ff00;
+  transition: 0.8s;
+  /* font-size: medium; */
+}
+.center {
+  width: 90%;
+  margin: 42px;
+  height: 65vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 55px;
+  /* background-color: aquamarine; */
+}
+.pic {
+  width: 60%;
+  height: 100%;
+  /* border-style: dashed; */
+  border-radius: 5px;
+}
+.fasebi {
+  margin-left: 10px;
+  margin-right: auto;
+  width: 38%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  /* padding: 10px; */
+  /* background-color: brown; */
+}
+.xinkaliPrice {
+  width: 115%;
+  height: 45%;
+  background-color: #fbbc05;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 0;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.xinkaliPrice:hover {
+  background-color: #d4ff00;
+}
+.xachapuriPrice:hover {
+  background-color: #d4ff00;
+}
+.xachapuriPrice {
+  width: 115%;
+  height: 45%;
+  background-color: #fbbc05;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.small {
+  /* margin-left: 45px; */
+  width: 95%;
+  margin-left: 40px;
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 150px;
+}
+.features {
+  margin-left: 10px;
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.xinkali {
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.text {
+  font-weight: normal;
+  color: rgb(66, 61, 61);
+
+  margin-top: 10px;
+}
+.tacuna {
+  width: 94.5%;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  height: 450px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+}
+
+.pank {
+  height: 80%;
+  width: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.btn {
+  height: 10%;
+  width: 10%;
+  background-color: #fbbc05;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.btn:hover {
+  height: 12%;
+  width: 12%;
+  transition: 0.5s;
+  border-radius: 15px;
+  font-weight: bolder;
+  font-size: 22px;
+}
+.text2 {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bolder;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.xazi {
+  width: 94.5%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 10px;
+  background-color: #75ffff;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+.texti {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #abc13e;
+}
+.potos {
+  width: 94.5%;
+  display: grid;
+
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto auto auto;
+  width: 94.5%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+.kit {
+  width: 305px;
+  height: 305px;
+  margin-bottom: 10px;
+
+  border: 2px solid rgb(242, 246, 247);
+  border-radius: 8px;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+  .small {
+    display: inline-flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  .features {
+    display: inline-block;
+  }
+  .potos {
+    display: block;
+  }
+  .fasebi {
+    display: none;
+  }
+  .pic {
+    width: 80%;
+    margin: auto;
+  }
+  .tacuna {
+    display: inline-flex;
+    width: 100%;
+    overflow: hidden;
+  }
+}
